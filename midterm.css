@@ -1,0 +1,92 @@
+.main-div {
+  width: 1000px;
+
+  height: 700px;
+}
+
+.container {
+  padding-top: 30px;
+  display: flex;
+  justify-items: center;
+}
+
+.inner-container {
+  background-color: white;
+  margin-left: 5%;
+  margin-right: 5%;
+  border: 5px solid green;
+  width: 895px;
+  height: 615px;
+}
+
+.header-1 {
+  background-color: #20b2aa;
+  font: century gothic;
+  size: 28pt;
+  color: white;
+  border: 5px solid white;
+}
+
+.nav-1 {
+  background-color: #a8f0f0;
+  font: century gothic;
+  margin-left: 5px;
+  width: 180px;
+  border: 5px solid blue;
+  height: 400px;
+}
+
+.aside-1 {
+  background-color: #a8f0f0;
+  height: 250px;
+  font: century gothic;
+  margin-left: 5px;
+  width: 180px;
+  border: 5px solid blue;
+  margin-top: 10px;
+}
+
+.article-1 {
+  width: 665px;
+  height: 455px;
+  padding-top: 5px;
+  border: 5px solid blue;
+  background-color: cadetblue;
+  margin-left: 205px;
+  margin-top: -410px;
+  margin-bottom: 10px;
+}
+
+.footer-1 {
+  background-color: cadetblue;
+  width: 665px;
+  height: 20px;
+  border: 5px solid blue;
+  padding-top: 10px;
+  padding-left: 10px;
+  color: green;
+  margin-left: 205px;
+  margin-bottom: 10px;
+}
+
+.aside-2 {
+  background-color: #a8f0f0;
+  height: 250px;
+  font: century gothic;
+  margin-left: 5px;
+  width: 180px;
+  border: 5px solid blue;
+  margin-top: -530px;
+  margin-left: 700px;
+}
+
+.aside-3 {
+  background-color: #a8f0f0;
+  height: 190px;
+  font: century gothic;
+  margin-left: 5px;
+  width: 180px;
+  border: 5px solid blue;
+  margin-left: 700px;
+  margin-top: 10px;
+}

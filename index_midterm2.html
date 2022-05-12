@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title> Web Lab Exam Quetion 2 </title>
+
+    <link rel="stylesheet" href="./midterm2.css">
+
+</head>
+
+<body>
+    <div class="main">
+    <div class="text">
+        <h1> <u> New Account Form </u> </h1>
+    </div>
+    <form action="">
+        <label for="Name" class="label"><b> Name</b></label>
+        <!-- <input type="text" id="fname"   /> -->
+        <input type="text" id="username" placeholder="User Name" class="common" name="user_name" required style="background-color: aqua;" />
+
+
+         <label for="username" class="label" id="label2"> <b>E-mail</b></label>
+         <input type="text" id="username" class="common" style="background-color: aqua;" />
+
+         <label for="password" class="label" id="label3" ><b>Mobile Number </b></label>
+         <input type="password" id="password" style="background-color: rgb(240, 240, 58);" />
+
+         <label for="date"class="label4"><b>Arrival</b></label>
+         <input type="date" name="dob" id="dob" class="common" style="background-color: rgb(56, 178, 214);" />
+
+         <label for="date"class="label4"><b>Departure</b></label>
+         <input type="time" name="pm" id="dob" class="common" style="background-color: rgb(56, 178, 214);" />
+
+         <label for="gender" class="label4"><b>Room Type</b></label><br />
+         <input type="radio"  id="radio" name="radio" value="Single" />
+         <label for="Single" style="color: red;">Single</label><br />
+         <input type="radio"  id="radio" name="radio" value="Double" />
+         <label for="Double" style="color: red;">Double</label>
+
+         <input type="radio"  id="radio" name="radio" value="suite" />
+         <label for="Suite" style="color: red;">Suite</label>
+
+
+         <label for="gender" class="label4"><b>preferences</b></label><br />
+         <input type="radio"  id="radio" name="radio" value="non-smoking" />
+         <label for="non-smoking" style="color: red;">non-smoking</label><br />
+         <input type="radio"  id="radio" name="radio" value="internet-connected" />
+         <label for="internet-connected" style="color: red;">internet-connected</label>
+
+         <input type="radio"  id="radio" name="radio" value="firm-mattress" />
+         <label for="firm-mattress" style="color: red;">firm-mattress</label>
+
+         <label for="gender" class="label4"><b>mode of payment</b></label><br />
+         <input type="radio"  id="radio" name="radio" value="cash" />
+         <label for="cash" style="color: red;">cash</label><br />
+         <input type="radio"  id="radio" name="radio" value="check" />
+         <label for="check" style="color: red;">check</label>
+
+         <input type="radio"  id="radio" name="radio" value="credit-card" />
+         <label for="credit-card" style="color: red;">credit-card</label>
+
+
+         <div class="dropdown">
+
+         <br />
+        <select name="Country" id="country" style="background-color: #38df3b;" placeholder="visa">
+        <option value=""select>Visa </option> 
+        <option value="">Pakistan</option>
+         <option value="">India</option>
+        </select>
+     
+         <div class="checkbox">
+   
+         <br />
+
+         <button type="button" class="buttons" >
+            <b> Reset submit Form</b></button>
+          <button type="button" class="buttons"><b> submit</b></button>
+        
+        </div>
+
+
+
+    </form>
+
+
+    </div>
+</body>
+</html>
